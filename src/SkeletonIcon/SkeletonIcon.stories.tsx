@@ -1,12 +1,12 @@
 import { ThemeProvider } from "styled-components";
+import { presente } from "@inubekit/foundations";
 
-import { presente } from "@shared/themes/presente";
 import { props, parameters } from "./props";
 import { SkeletonIcon, ISkeletonIconProps } from ".";
 
 const story = {
   title: "feedback/SkeletonIcon",
-  components: [SkeletonIcon],
+  components: SkeletonIcon,
   parameters,
   argTypes: props,
 };

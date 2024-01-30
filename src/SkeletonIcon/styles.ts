@@ -1,11 +1,10 @@
 import styled, { keyframes } from "styled-components";
+import { inube } from "@inubekit/foundations";
 
 import { ISkeletonIconProps } from "./index";
-import { inube } from "@shared/tokens";
-import { Themed } from "@shared/types/types";
 
 interface IStyledSkeletonIconProps extends ISkeletonIconProps {
-  theme?: Themed;
+  theme?: typeof inube;
 }
 
 const shimmer = keyframes`
