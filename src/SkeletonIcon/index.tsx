@@ -8,7 +8,7 @@ export interface ISkeletonIconProps {
 const SkeletonIcon = (props: ISkeletonIconProps) => {
   const { size = "24px", animated = false } = props;
 
-  return <StyledSkeletonIcon size={size} animated={animated} />;
+  return <StyledSkeletonIcon $size={size} $animated={animated} />;
 };
 
 export { SkeletonIcon };
