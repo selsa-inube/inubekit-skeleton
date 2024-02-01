@@ -1,14 +1,6 @@
 import styled, { css, keyframes } from "styled-components";
 import { inube } from "@inubekit/foundations";
 
-import { ISkeletonIconProps } from "./index";
-
-type AddDolarSign<T> = {
-  [K in keyof T as `$${string & K}`]: T[K];
-};
-
-type IStyledSkeletonIconProps = AddDolarSign<ISkeletonIconProps>;
-
 const shimmer = keyframes`
 0% {
     transform: translateX(-100%);
@@ -17,7 +9,7 @@ const shimmer = keyframes`
     transform: translateX(100%);
   }
 `;
-const StyledSkeletonIcon = styled.div<IStyledSkeletonIconProps>`
+const StyledSkeletonIcon = styled.div`
   position: relative;
   border-radius: 6px;
   overflow: hidden;
