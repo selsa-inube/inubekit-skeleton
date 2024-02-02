@@ -10,7 +10,7 @@ const shimmer = keyframes`
   }
 `;
 
-const StyledSkeletonLine = styled.div`
+export const StyledSkeletonLine = styled.div`
   position: relative;
   border-radius: 6px;
   overflow: hidden;
@@ -40,9 +40,7 @@ const StyledSkeletonLine = styled.div`
         theme?.color?.surface?.dark?.clear || inube.color.surface.dark.clear
       } 80%
     );`};
-        animation: ${({ $animated }) => $animated && shimmer} 2s linear infinite;
+        animation: ${shimmer} 2s linear infinite;
       }
     `}
 `;
-
-export { StyledSkeletonLine };
