@@ -7,6 +7,9 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
   ],
+  core: {
+    disableTelemetry: true,
+  },
   framework: {
     name: "@storybook/react-vite",
     options: {},

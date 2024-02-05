@@ -1,3 +1,25 @@
+# v0.0.2 (Mon Feb 05 2024)
+
+#### 🐛 Bug Fix
+
+- implementation of  `<SkeletonLine />` component [#2](https://github.com/selsa-inube/inubekit-skeleton/pull/2) ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+- adjust publish `SkeletonIcon` @inubekit/skeleton repo [#1](https://github.com/selsa-inube/inubekit-skeleton/pull/1) ([@Andresbl123](https://github.com/Andresbl123))
+
+#### ⚠️ Pushed to `main`
+
+- perf: disable telemetry in Storybook configuration (carlos3k11@gmail.com)
+- feat: implement the distribution of the type definition (carlos3k11@gmail.com)
+- feat: add rollupOptions to vite.config.ts (carlos3k11@gmail.com)
+- Initial commit ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+
+#### Authors: 3
+
+- Andres ([@Andresbl123](https://github.com/Andresbl123))
+- Andres Babativa (carlos3k11@gmail.com)
+- Januar Asprilla  ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+
+---
+
 # v0.0.1 (Wed Jan 17 2024)
 
 #### ⚠️ Pushed to `main`
