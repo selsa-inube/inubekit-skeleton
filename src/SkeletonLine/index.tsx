@@ -1,14 +1,15 @@
 import { StyledSkeletonLine } from "./styles";
 
-export interface ISkeletonLineProps {
+interface ISkeletonLine {
   width?: string;
   animated?: boolean;
 }
 
-const SkeletonLine = (props: ISkeletonLineProps) => {
+const SkeletonLine = (props: ISkeletonLine) => {
   const { width = "100%", animated = false } = props;
 
   return <StyledSkeletonLine $width={width} $animated={animated} />;
 };
 
 export { SkeletonLine };
+export type { ISkeletonLine };

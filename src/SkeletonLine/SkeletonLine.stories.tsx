@@ -1,4 +1,4 @@
-import { SkeletonLine, ISkeletonLineProps } from ".";
+import { SkeletonLine, ISkeletonLine } from ".";
 import { props, parameters } from "./props";
 
 const story = {
@@ -7,7 +7,7 @@ const story = {
   parameters,
   argTypes: props,
 };
-const Default = (args: ISkeletonLineProps) => <SkeletonLine {...args} />;
+const Default = (args: ISkeletonLine) => <SkeletonLine {...args} />;
 Default.args = {
   width: "100%",
   animated: false,

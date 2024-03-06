@@ -1,5 +1,5 @@
 import { props, parameters } from "./props";
-import { SkeletonIcon, ISkeletonIconProps } from ".";
+import { SkeletonIcon, ISkeletonIcon } from ".";
 
 const story = {
   title: "feedback/SkeletonIcon",
@@ -8,7 +8,7 @@ const story = {
   argTypes: props,
 };
 
-const Default = (args: ISkeletonIconProps) => <SkeletonIcon {...args} />;
+const Default = (args: ISkeletonIcon) => <SkeletonIcon {...args} />;
 Default.args = {
   size: "24px",
   animated: false,
