@@ -16,7 +16,7 @@ const StyledSkeletonIcon = styled.div`
   width: ${({ $size }) => $size};
   height: ${({ $size }) => $size};
   background: ${({ theme }) =>
-    theme?.color?.surface?.dark?.clear || inube.color.surface.dark.clear};
+    theme?.skeleton?.background?.color || inube.skeleton.background.color};
 
   ${({ $animated }) =>
     $animated &&
@@ -29,14 +29,12 @@ const StyledSkeletonIcon = styled.div`
         background: ${({ theme }) => `linear-gradient(
       100deg,
       ${
-        theme?.color?.surface?.dark?.clear || inube.color.surface.dark.clear
+        theme?.skeleton?.animation?.color || inube.skeleton.animation.color
       } 20%,
       ${
-        theme?.color?.surface?.gray?.clear || inube.color.surface.gray.clear
+        theme?.skeleton?.animation?.color || inube.skeleton.animation.color
       } 50%,
-      ${
-        theme?.color?.surface?.dark?.clear || inube.color.surface.dark.clear
-      } 80%
+      ${theme?.skeleton?.animation?.color || inube.skeleton.animation.color} 80%
     );`};
         animation: ${shimmer} 2s linear infinite;
       }
