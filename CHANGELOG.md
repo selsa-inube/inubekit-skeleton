@@ -1,3 +1,20 @@
+# v2.0.0 (Thu Mar 07 2024)
+
+#### 💥 Breaking Change
+
+- Refactor component to use new token structure [#4](https://github.com/selsa-inube/inubekit-skeleton/pull/4) ([@cmarin001](https://github.com/cmarin001))
+
+#### 🐛 Bug Fix
+
+- publishing `<Skeleton />` package in NPM [#3](https://github.com/selsa-inube/inubekit-skeleton/pull/3) ([@Andresbl123](https://github.com/Andresbl123))
+
+#### Authors: 2
+
+- Andres ([@Andresbl123](https://github.com/Andresbl123))
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.0.2 (Mon Feb 05 2024)
 
 #### 🐛 Bug Fix
