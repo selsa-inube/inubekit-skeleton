@@ -29,12 +29,14 @@ const StyledSkeletonIcon = styled.div`
         background: ${({ theme }) => `linear-gradient(
       100deg,
       ${
-        theme?.skeleton?.animation?.color || inube.skeleton.animation.color
-      } 20%,
+        theme?.skeleton?.background?.color || inube.skeleton.background.color
+      } 0%,
       ${
         theme?.skeleton?.animation?.color || inube.skeleton.animation.color
       } 50%,
-      ${theme?.skeleton?.animation?.color || inube.skeleton.animation.color} 80%
+      ${
+        theme?.skeleton?.background?.color || inube.skeleton.background.color
+      } 100%
     );`};
         animation: ${shimmer} 2s linear infinite;
       }
