@@ -1,4 +1,4 @@
-export const parameters = {
+const parameters = {
   docs: {
     description: {
       component:
@@ -7,7 +7,7 @@ export const parameters = {
   },
 };
 
-export const props = {
+const props = {
   size: {
     control: { type: "text" },
     description: "sets the size of the skeleton icon component",
@@ -25,3 +25,5 @@ export const props = {
     },
   },
 };
+
+export { props, parameters };
