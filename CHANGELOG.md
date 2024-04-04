@@ -1,3 +1,23 @@
+# v2.0.1 (Thu Apr 04 2024)
+
+#### 🐛 Bug Fix
+
+- Add auto publish [#7](https://github.com/selsa-inube/inubekit-skeleton/pull/7) ([@cmarin001](https://github.com/cmarin001))
+
+#### 📝 Documentation
+
+- Release new version 2.0.0 [#5](https://github.com/selsa-inube/inubekit-skeleton/pull/5) ([@cmarin001](https://github.com/cmarin001))
+
+#### 🔩 Dependency Updates
+
+- Update inubekit/skeleton to storybook v8 [#6](https://github.com/selsa-inube/inubekit-skeleton/pull/6) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v2.0.0 (Thu Mar 07 2024)
 
 #### 💥 Breaking Change
