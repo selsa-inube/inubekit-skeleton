@@ -1,5 +1,5 @@
 import styled, { css, keyframes } from "styled-components";
-import { inube } from "@inubekit/foundations";
+import { tokens } from "../Tokens/tokens";
 
 const shimmer = keyframes`
 0% {
@@ -16,7 +16,7 @@ const StyledSkeletonIcon = styled.div`
   width: ${({ $size }) => $size};
   height: ${({ $size }) => $size};
   background: ${({ theme }) =>
-    theme?.skeleton?.background?.color || inube.skeleton.background.color};
+    theme?.skeleton?.background?.color || tokens.background.color};
 
   ${({ $animated }) =>
     $animated &&
@@ -28,15 +28,9 @@ const StyledSkeletonIcon = styled.div`
         width: 100%;
         background: ${({ theme }) => `linear-gradient(
       100deg,
-      ${
-        theme?.skeleton?.background?.color || inube.skeleton.background.color
-      } 0%,
-      ${
-        theme?.skeleton?.animation?.color || inube.skeleton.animation.color
-      } 50%,
-      ${
-        theme?.skeleton?.background?.color || inube.skeleton.background.color
-      } 100%
+      ${theme?.skeleton?.background?.color || tokens.background.color} 0%,
+      ${theme?.skeleton?.animation?.color || tokens.animation.color} 50%,
+      ${theme?.skeleton?.background?.color || tokens.background.color} 100%
     );`};
         animation: ${shimmer} 2s linear infinite;
       }
